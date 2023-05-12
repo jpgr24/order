@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<horizontal_menu>
+  <menu>
+    
+    
+    <text>ABOUT US</text>
+    <link>about</link>
+  </menu>
+  <menu>
+    
+    
+    <text>SERVICES/EXPERTISE</text>
+    <link>services</link>
+  </menu>
+  <menu>
+    
+    
+    <text>TESTIMONIALS / REFERRALS</text>
+    <link>testimonial</link>
+  </menu>
+  <menu>
+    
+    
+    <text>FAVORITES</text>
+    <link>favorite</link>
+  </menu>
+  <menu>
+    
+    
+    <text>CONTACT US</text>
+    <link>contact</link>
+  </menu>
+  <menu>
+    
+    
+    <text>EMAIL FORM</text>
+    <link>email</link>
+  </menu>
+ 
+  
+  
+  
+  
+  
+
+</horizontal_menu>

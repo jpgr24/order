@@ -1,0 +1,11 @@
+<div class="container-fluid bg-2 text-center hid" id="services">
+  <h3 class="margin title">{{ser_title}}</h3>
+
+ {% for it in ser_it %}
+    {# the contents of this variable are dumped inside the page contents
+       and they are visible on the web page #}
+    <p alt="{{it.title}}">{{it.title}} <span class="{{it.class}}">{{it.text}}</span></p>
+{% endfor %}
+
+  
+</div>

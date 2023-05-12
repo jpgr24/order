@@ -1,0 +1,47 @@
+<div class="container-fluid bg-6 text-center" id="email">
+  <h3 class="margin"><u>{{email_title}}</u></h3>
+{{ form_start(form) }}
+            
+<div class="row">
+    <div class="col-sm-4">
+      {{ form_label(form.name) }}
+    {{ form_errors(form.name) }}
+    {{ form_widget(form.name) }}
+    </div>
+    <div class="col-sm-4">
+      {{ form_label(form.lastname) }}
+    {{ form_errors(form.lastname) }}
+    {{ form_widget(form.lastname) }}
+    </div>
+    <div class="col-sm-4">
+      {{ form_label(form.phone) }}
+    {{ form_errors(form.phone) }}
+    {{ form_widget(form.phone) }}
+    </div>
+     <div class="col-sm-4">
+      {{ form_label(form.email) }}
+    {{ form_errors(form.email) }}
+    {{ form_widget(form.email) }}
+    </div>
+     <div class="col-sm-4 text_email">
+      {{ form_label(form.msg) }}
+    {{ form_errors(form.msg) }}
+    {{ form_widget(form.msg) }}
+    </div>
+    
+
+    
+
+
+    
+</div>
+
+<center>
+  <div class="g-recaptcha" data-sitekey="6Lfahs4bAAAAAB6n1WUz4r7ixTehSbPh4y8i0Rvt"></div>
+</center>
+{{ form_end(form) }}
+ 
+
+
+
+</div>

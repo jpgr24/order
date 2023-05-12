@@ -1,0 +1,13 @@
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
+homepage:
+  path:      /
+  defaults:  { _controller: AppBundle:Default:index }
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
+subpage:
+  path:      /{subpage}
+  defaults:  { _controller: AppBundle:Default:subpage }

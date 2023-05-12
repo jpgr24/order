@@ -1,0 +1,302 @@
+body {
+    background-image: url('../images/bg-wallpaper-server-rack-black-metal.jpg');
+}
+
+#contact .row, .col-sm-4{}
+#title{    padding: 0;
+    color: #2c4fce;
+    text-shadow: -3px 1px 0 #ff0, -1px 4px 0 #04ff00, 1px 1px 0 #a0a0a0, 1px 1px 0 #a0a0a0;}
+    #navbar{background-image: url('../images/bg-wallpaper-server-rack-black-metal.jpg');width:100%;}
+    #menu{display:none;}
+    #menu li{}
+  #menu li a{    color: #8BC34A;
+    background-color: #2e2c31;
+border-width:1px;
+border-style:solid;
+border-color:#000;}
+#about, #services, #testimonial, #favorite, #contact{display:none;}
+ 
+    #menu li a:hover, #menu li a.active{background-color: #8BC34A;color:#2e2c31;}
+    .container-fluid .margin{color:#ffff00}
+    .container-fluid {
+    background-color: #000;
+    padding-top: 90px;
+    padding-bottom: 70px;
+
+  }
+  .hid{display:none;}
+  form #form_save{margin-bottom:12px;}
+
+.green{
+    color: #00ff00;
+}
+.bg-1 h3{
+    color: #ff0000;
+ }
+
+ .bg-1 h3 a{color:#0000ff;}
+ .white{color:#fff;}
+ .f0{
+    color: #6699ff;
+    }
+    .underline{text-decoration: underline}
+    .red{color:#ff0000;}
+
+    #email label{color:#00ff00;font-size:16px;font-weight: normal;}
+    #email input{color:#000;}
+    #email .msg label{display:block;}
+    #email textarea#form_msg{color:#000;}
+    #email button{color:#000;}
+    footer{    
+    width: 100%;
+    background-color: #000;
+    position: fixed;
+    margin-top: 645px;
+    z-index: 9;
+bottom:0;}
+.title{}
+.bg-1 .title{}
+.bg-2 .title{}
+.bg-3 .title{}
+.bg-4 .title{}
+.bg-5 .title{}
+.bg-6 .title{}
+#phone, #mail, #fax{font-size:32px;}
+
+#contact div{}
+
+
+
+@media (max-width: 767px){
+    
+    #email{}
+    #email .margin{}
+    #email div, #email center{    margin-top: 15px;}
+    #email input{}
+    #email textarea{}
+    footer{}
+    #email button{}
+    footer p{font-size:9px;}
+    #myNavbar{margin-bottom:-15%;}
+    #menu{margin-top:-1.5px;}
+
+}
+.toggle{
+position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-right: 15px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    border-color: #ddd;
+
+}
+
+.toggle .icon-bar{
+    display: block;
+    background-color: #888;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px
+}
+
+.toggle .icon-bar+.icon-bar {
+    margin-top: 4px;
+}
+
+
+/**@media(min-width:768px) and (max-width:777px){body #myNavbar {
+    margin-left: -8%;
+    width: 800px;
+}
+
+
+}
+
+@media(min-width:777px) and (max-width:800px){body #myNavbar {
+    margin-left: -9%;
+    width: 803px;
+}
+
+
+}
+@media(min-width:800px) and (max-width:821px){body #myNavbar {
+    margin-left: -9.9%;
+    width: 815px;}
+
+
+}
+@media(min-width:821px) and (max-width:828px){body #myNavbar {
+    margin-left: -11%;
+    width: 830px;}
+
+
+}
+@media(min-width:830px) and (max-width:863px){body #myNavbar {
+    margin-left: -14%;
+    width: 150%;}
+
+
+}
+@media(min-width:864px) and (max-width:890px){body #myNavbar {
+    margin-left: -15%;
+    width: 150%;}
+
+
+}
+@media(min-width:891px) and (max-width:903px){body #myNavbar {
+    margin-left: -17%;
+    width: 150%;}
+
+
+}
+@media(min-width:903px) and (max-width:920px){body #myNavbar {
+    margin-left: -17%;
+    width: 150%;}
+
+
+}
+
+
+@media(min-width:921px) and (max-width:941px){body #myNavbar {
+    margin-left: -20%;
+    width: 150%;}
+
+
+}
+
+@media(min-width:942px) and (max-width:962px){body #myNavbar {
+    margin-left: -20%;
+    width: 150%;}
+
+
+}**/
+@media(min-width:768px) and (max-width:1199px){body #menu li a{}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:768px) and (max-width:818px){.toggle{margin-left:620px;}
+
+
+}
+
+
+@media(min-width:818px) and (max-width:848px){.toggle{margin-left: 680px;}
+
+
+#title{}
+}
+
+@media(min-width:849px) and (max-width:980px){.toggle{margin-left: 690px;}
+
+
+#title{}
+}
+
+@media(min-width:980px) and (max-width:1199px){.toggle{margin-left: 720px;}
+
+
+#title{}
+}
+
+@media(min-width:768px) and (max-width:1199px){body.view .navbar-collapse.collapse{display: none !important;}
+body.view .navbar-collapse.collapse.in{display: block !important;
+
+overflow-y: auto !important;
+}
+
+body #myNavbar{margin-bottom:-15%;}
+body.view .navbar-nav>li {
+    position:relative;
+    float: right;
+    width: 100%;
+}
+body.view .navbar-nav>li>a {
+        padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
+    position: relative;
+    display: block;
+}
+
+.toggle{}
+
+#title{margin-left: 30%;
+    margin-top: -35px;
+    margin-bottom: -30px}
+#menu{}
+
+.navbar-header{margin-top:-15px;}
+}
+
+
+@media(min-width:1200px){.toggle{display:none;}
+#title{width:100%;margin-left:120%;}
+
+}
+@media (min-width: 768px){
+#navbar{margin-left:2%;}
+
+#mail, #phone,#fax{}
+#myNavbar{
+    margin-left: -5.9%;
+
+}
+    
+footer.container-fluid p{
+        text-align:center;}
+ 	.container-fluid {width:90%;
+        padding-top:200px;
+      
+ 	}
+ 	.bg-1 .help{
+    margin-left: 23%;
+}
+ 	.bg-1 p{margin-left:20%;}
+ 	.legend{text-align: justify;
+ 		margin-left:23%;}
+
+ 	
+ 	.container-fluid p{
+    text-align: justify;
+}
+
+.bg-4 p{margin-left:27%;}
+
+ .bg-5 img{display:inline-block;width:11%;}
+ }
+ #email .container-fluid div{margin-bottom:20px;}
+
+
+#testimonial{overflow-y:scroll;
+height:699px;}
+.text_email label{display: block;margin-top:-2%;}
+}
+

@@ -1,0 +1,60 @@
+<div class="container-fluid bg-5  text-center hid" id="contact">    
+  <h3 class="margin">{{cont_title}}</h3><br>
+
+  <div class="row">
+    <div class="col-sm-4">
+      <p class="white">{{cont_name_a}}</p>
+      <p class="green">{{cont_name_b}}</p>
+      <center>
+      <img src="{{cont_name_img}}" style="width: 50%" class="img-responsive margin" alt="Image">
+    </center>
+    </div>
+    <div class="col-sm-4"> 
+      <p class="white">{{cont_email_a}}</p>
+      <p class="green">{{cont_email_b}}</p>
+      <p id="mail"><a href={{cont_link_email}}">&#9993;</a></p>
+    </div>
+    <div class="col-sm-4"> 
+      <p class="white">{{cont_phone_a}}</p>
+      <p class="green">{{cont_phone_b}}</p>
+      <p id="phone">&#128222;</p>
+      
+    </div>
+  </div>
+    <div class="row">
+     <div class="col-sm-4"> 
+      <p class="white">{{cont_fax_a}}</p>
+      <p class="green">{{cont_fax_b}}</p>
+      <p id="fax">&#128439;</p>
+</div>
+      <div class="col-sm-4"> 
+      <p class="white">{{cont_location_a}}</p>
+      <p class="green"><a href="{{cont_location_link}}">{{cont_location_b}}</a></p>
+        <center>
+      <a href="{{cont_location_link}}"><img src="{{cont_location_img}}" class="img-responsive margin" style="width:50%"  alt="Image"></a>
+    </center>
+</div>
+<div class="col-sm-4"> 
+      <p class="white">{{social_media_title}}</p>
+     
+
+      <p>
+      {% for it in socialmedia %}
+      <a target="_blank" href="{{it.link}}"><img class ="img-responsive"  src="{{it.image}}" alt="{{it.alt}}" ></a>
+      {% endfor %}
+      </p>
+      
+</div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+  </div>
+</div>

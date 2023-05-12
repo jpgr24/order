@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<services>
+  <item> 
+    <class>margin</class>
+    <title></title>
+    <text>[1] On-site, on-prem (we come to you), here in San Diego County, CA, USA; *or*</text>
+  </item>
+  <item> 
+    <class>margin</class>
+    <title></title>
+    <text>[2] Remote support / tele-assistance service (via VNC, SSH, RDP, Windows Quick Assist, Windows Remote Assistance, Zoom, JitSi, TeamViewer, etc..). YOUR CHOICE! FREE ESTIMATES. 
+    </text>
+  </item>
+  <item> 
+    <class>green</class>
+    <title>- Information Technology (I.T.):</title>
+    <text>Computer Consulting / Troubleshooting / Techno-Wizardry / Digital Evangelism; 
+    </text>
+  </item>
+  <item> 
+    <class>green</class>
+    <title>- Operating Systems:</title>
+    <text>Linux core/server/GUI, Mint/LMDE4/cinnamon, Ubuntu; BSD/freebsd; RHEL/CentOS, SUSE, SELinux, Manjaro, *NIX; Windows Server, ActiveDirectory/AD/DS/DC, SSO, LDAP, OU, GPO/GPE, Event Viewer, syslog; Windows 10 Pro/Home/XP/8/7/Vista;</text>
+  </item>
+  <item> 
+    <class>green</class>
+    <title>- Other:</title>
+    <text>Raspberry pi, python, bash/sh scripting, automation, convergence, migrations, optimization; Familiar: Arduino, NanoPi, AdaFruit, PocketBeagle, Banana Pi, Odroid; MacOS, JSON, Alexa/GoogleAssistant programming and WordPress (security/securing) and plug-ins;</text>
+  </item>
+  
+  <item> 
+    <class>green</class>
+    <title>- Virtualization::</title>
+    <text>Virtual Machines, VM, vmWare, vSphere, vCenter, Oracle VirtualBox, AWS/EC2, Google Cloud, Hyper-V/Azure, DigitalOcean, Apple Cloud;</text>
+  </item>
+   <item> 
+    <class>green</class>
+    <title>- CyberSecurity:</title>
+    <text>System-Hardening, Ethical Hacking, Vulnerability Scans, Risk and Attack Surface Analysis, Security Audits; VLANs, IPv4 subnetting, sandboxing; Firewall/iptables/ufw/gufw;</text>
+  </item>
+   <item> 
+    <class>green</class>
+    <title>- Networks &#38; Networking:</title>
+    <text>Routers, Switches, Cisco iOS, Wi-Fi/wlan/SSID/mesh/ESS/Extended Service Set, NAS/SAN/RAID/SCSI/iSCSI, Spanned-Disks, Virtual Volumes, samba, Topology Analysis/SNMP/ICMP, Alerts/Notifications, Packet-Shaping, Prioritization, qos, VoIP, Route Optimization;</text>
+  </item>
+  <item> 
+    <class>green</class>
+    <title>- Business Expediency and CRM:</title>
+    <text>Leveraging all your available tech, programming, features; empowering your business (or maximizing your home PC) to make the most of CRM; vTiger, SalesForce, NetSuite by Oracle, ZenDesk, SAP, HubSpot, SolarWinds, ServiceDesk, ServiceNOW, general cloud offerings, etc.</text>
+  </item>
+
+
+  
+
+
+  
+ 
+  
+  
+  
+  
+  
+
+</services>

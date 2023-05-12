@@ -1,0 +1,17 @@
+<div class="container-fluid bg-1 text-center" id="about">
+  <h3 class="margin title"><u>{{ab_title}}</u></h3>
+  <img src="{{ab_picture}}" class="img-responsive img-circle margin" style="display:inline" alt="Peter Leftwich, ITWZ" width="89" height="89" >
+ 
+  {% for it in ab_text %}
+    {# the contents of this variable are dumped inside the page contents
+       and they are visible on the web page #}
+
+
+ 
+        <p class="{{it.class}}" alt="{{it.text}}">{{it.text}}</p>
+{% endfor %}
+  <h3>OUR MOTTO: <a href="#">"ITWiz1.Com</a> *destroys* all I.T. and computing challenges!"</h3>
+
+
+
+</div>

@@ -1,0 +1,41 @@
+<div class="container-fluid bg-4  text-center hid" id="favorite">    
+  <h3 class="margin">{{favor_title}}</h3><br>
+  <div class="row">
+  <div class="col-sm-4"> 
+     
+    </div>
+    
+    <div class="col-sm-4"> 
+     <img src="{{favor_image}}" class="img-responsive margin" style="width:100%" alt="Image"  usemap="#workmap">
+     <map name="workmap">
+  {% for it in favor_map %}
+    {# the contents of this variable are dumped inside the page contents
+       and they are visible on the web page #}
+     <area shape="rect" coords="{{it}}">
+{% endfor %}
+
+  
+
+
+ 
+ 
+</map>
+    </div>
+    
+      
+      
+    
+  </div>
+  <p class ="element green">Click the areas on the picture</p>
+  <h3 class="green legend">LEGEND</h3>
+
+{% for i in fav_text %}
+    {# the contents of this variable are dumped inside the page contents
+       and they are visible on the web page #}
+     <p class="green">- Row{{i.id}}: {{i.text}}</p>
+{% endfor %}
+
+  
+
+
+</div>
